@@ -1,0 +1,35 @@
+{
+  "name": "lecture3-task1-webpack",
+  "version": "1.0.0",
+  "description": "Task for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molodaneporochnacubinka/lecture3task1.git"
+  },
+  "author": "anouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molodaneporochnacubinka/lecture3task1/issues"
+  },
+  "homepage": "https://github.com/molodaneporochnacubinka/lecture3task1#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
